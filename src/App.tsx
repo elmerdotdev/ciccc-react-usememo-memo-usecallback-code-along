@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import Welcome from './components/Welcome'
-import Message from './components/Message'
-import HeavyCounter from './components/HeavyCounter'
-import Search from './components/Search'
-import Profile from './components/Profile'
-import User from './components/User'
+import Welcome from './components/WelcomeMemo'
+import Message from './components/MessageMemo'
+import HeavyCounter from './components/HeavyCounterUseMemo'
+import Search from './components/SearchUseMemo'
+import Profile from './components/Profile/Profile'
+import User from './components/User/User'
 
 const App = () => {
   const [count, setCount] = useState<number>(0)
